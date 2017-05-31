@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="149" id="KGk-i7-Jjw" customClass="JMHomeTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="185"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="184.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2017-05-30 18:30:30" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gQt-Rj-B9Q">
+                        <rect key="frame" x="99" y="10" width="122.5" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="zfb-Rb-lSr"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xOf-Gy-CC0">
+                        <rect key="frame" x="10" y="39" width="300" height="145.5"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GV9-R2-Adt">
+                                <rect key="frame" x="0.0" y="0.0" width="300" height="50"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="你的门店信息申请修改已被审核通过" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2fS-F8-H4T">
+                                        <rect key="frame" x="8" y="8" width="284" height="21"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="21" id="XCb-Ie-l7f"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2017-05-30 18:30:30" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1tG-M1-Hvf">
+                                        <rect key="frame" x="8" y="29" width="104.5" height="21"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="21" id="Yeg-fd-T0a"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="4bR-to-8ka"/>
+                                    <constraint firstAttribute="trailing" secondItem="2fS-F8-H4T" secondAttribute="trailing" constant="8" id="BTf-YT-ZhH"/>
+                                    <constraint firstItem="2fS-F8-H4T" firstAttribute="leading" secondItem="GV9-R2-Adt" secondAttribute="leading" constant="8" id="Dz5-0t-lBU"/>
+                                    <constraint firstItem="1tG-M1-Hvf" firstAttribute="top" secondItem="2fS-F8-H4T" secondAttribute="bottom" id="exl-qS-byc"/>
+                                    <constraint firstItem="2fS-F8-H4T" firstAttribute="top" secondItem="GV9-R2-Adt" secondAttribute="top" constant="8" id="q61-01-Rrt"/>
+                                    <constraint firstItem="1tG-M1-Hvf" firstAttribute="leading" secondItem="GV9-R2-Adt" secondAttribute="leading" constant="8" id="yFN-pu-C1n"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="你的门店信息申请修改已被审核通过你的门店信息申请修改已被审核通过你的门店信息申请修改已被审核通过你的门店信息申请修改已被审核通过你的门店信息申请修改已被审核通过" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c7S-za-jEC">
+                                <rect key="frame" x="8" y="62" width="279" height="67"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="c7S-za-jEC" firstAttribute="top" secondItem="GV9-R2-Adt" secondAttribute="bottom" constant="12" id="JRJ-mL-9wc"/>
+                            <constraint firstItem="GV9-R2-Adt" firstAttribute="top" secondItem="xOf-Gy-CC0" secondAttribute="top" id="KGD-HY-vRP"/>
+                            <constraint firstItem="c7S-za-jEC" firstAttribute="leading" secondItem="xOf-Gy-CC0" secondAttribute="leading" constant="8" id="Oo8-2A-dEm"/>
+                            <constraint firstItem="GV9-R2-Adt" firstAttribute="leading" secondItem="xOf-Gy-CC0" secondAttribute="leading" id="Uqp-cx-eTA"/>
+                            <constraint firstAttribute="trailing" secondItem="GV9-R2-Adt" secondAttribute="trailing" id="fGn-LB-On6"/>
+                            <constraint firstAttribute="trailing" secondItem="c7S-za-jEC" secondAttribute="trailing" constant="13" id="y9S-py-12o"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="5"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" red="0.84696626663208008" green="0.84711211919784546" blue="0.84695702791213989" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                <constraints>
+                    <constraint firstItem="xOf-Gy-CC0" firstAttribute="top" secondItem="gQt-Rj-B9Q" secondAttribute="bottom" constant="8" id="Asa-It-VzP"/>
+                    <constraint firstItem="gQt-Rj-B9Q" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="Naq-77-pML"/>
+                    <constraint firstAttribute="bottom" secondItem="xOf-Gy-CC0" secondAttribute="bottom" id="Nms-KR-icS"/>
+                    <constraint firstItem="gQt-Rj-B9Q" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="SLn-t0-h3a"/>
+                    <constraint firstAttribute="trailing" secondItem="xOf-Gy-CC0" secondAttribute="trailing" constant="10" id="lyL-9Z-Cjy"/>
+                    <constraint firstItem="xOf-Gy-CC0" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="tjF-1b-RYd"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="descriptionLabel" destination="c7S-za-jEC" id="nQm-sk-P02"/>
+                <outlet property="middleTimeLabel" destination="1tG-M1-Hvf" id="KA4-QB-2pe"/>
+                <outlet property="titleLabel" destination="2fS-F8-H4T" id="0xg-3K-ibM"/>
+                <outlet property="topTimeLabel" destination="gQt-Rj-B9Q" id="GAz-Zs-b2N"/>
+            </connections>
+            <point key="canvasLocation" x="25" y="104.5"/>
+        </tableViewCell>
+    </objects>
+</document>

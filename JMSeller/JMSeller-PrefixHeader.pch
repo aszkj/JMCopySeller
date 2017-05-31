@@ -1,0 +1,22 @@
+//
+//  JMSeller-PrefixHeader.pch
+//  JMSeller
+//
+//  Created by JM on 2017/5/17.
+//  Copyright © 2017年 JMai. All rights reserved.
+//
+
+#ifndef JMSeller_PrefixHeader_pch
+#define JMSeller_PrefixHeader_pch
+
+#import "GlobleNormalConst.h"
+#import "AFNHttpRequestOPManager.h"
+#import "JMRequestUrl.h"
+#import "ProjectUIAttributeConst.h"
+#import "UIImageView+sd_SetImg.h"
+#import "NSDictionary+SUISafeAccess.h"
+#import "UILabel+safeSetText.h"
+#import "UIButton+safeSetTitle.h"
+#import "JMDesignedButton.h"
+
+#endif /* JMSeller_PrefixHeader_pch */

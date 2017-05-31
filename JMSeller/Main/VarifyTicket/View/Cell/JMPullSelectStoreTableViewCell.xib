@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="50" id="KGk-i7-Jjw" customClass="JMPullSelectStoreTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="430" height="51"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="430" height="50.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="深圳" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vgr-RE-f4K">
+                        <rect key="frame" x="30" y="15" width="25" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="WIV-af-rnF"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="咖啡厅（源兴店）" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ohv-uQ-J6b">
+                        <rect key="frame" x="45" y="18.5" width="98.5" height="14.5"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="14.5" id="tfm-b7-RAC"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g3D-jD-rJE">
+                        <rect key="frame" x="403" y="19.5" width="17" height="13"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="17" id="CVf-Kd-6DD"/>
+                            <constraint firstAttribute="height" constant="13" id="QnV-88-0G2"/>
+                        </constraints>
+                        <state key="normal" image="勾"/>
+                    </button>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Uea-co-370">
+                        <rect key="frame" x="0.0" y="49.5" width="430" height="1"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="xSD-YJ-ilp"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="g3D-jD-rJE" secondAttribute="trailing" constant="10" id="4CE-Q7-K3t"/>
+                    <constraint firstItem="vgr-RE-f4K" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="B9s-dS-w3C"/>
+                    <constraint firstAttribute="bottom" secondItem="Uea-co-370" secondAttribute="bottom" id="Eld-2H-M7l"/>
+                    <constraint firstItem="Ohv-uQ-J6b" firstAttribute="leading" secondItem="vgr-RE-f4K" secondAttribute="trailing" constant="-10" id="Nyi-ob-Yss"/>
+                    <constraint firstItem="Uea-co-370" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="UZS-PQ-RKk"/>
+                    <constraint firstAttribute="trailing" secondItem="Uea-co-370" secondAttribute="trailing" id="Xod-jy-ZmD"/>
+                    <constraint firstItem="g3D-jD-rJE" firstAttribute="centerY" secondItem="vgr-RE-f4K" secondAttribute="centerY" id="c0Y-bQ-z7K"/>
+                    <constraint firstItem="vgr-RE-f4K" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="30" id="m76-o8-b7d"/>
+                    <constraint firstItem="Ohv-uQ-J6b" firstAttribute="centerY" secondItem="vgr-RE-f4K" secondAttribute="centerY" id="rFI-FS-FDl"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="selectMarkButton" destination="g3D-jD-rJE" id="CYX-6S-Jr7"/>
+                <outlet property="storeCityLabel" destination="vgr-RE-f4K" id="Brd-Zh-d6J"/>
+                <outlet property="storeNameLabel" destination="Ohv-uQ-J6b" id="tIn-JS-MZY"/>
+            </connections>
+            <point key="canvasLocation" x="8" y="60.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="勾" width="17" height="13"/>
+    </resources>
+</document>

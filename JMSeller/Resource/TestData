@@ -1,0 +1,24 @@
+- (NSArray *)_testData {
+//    JMSellerAuditResultModel *model1 = [[JMSellerAuditResultModel alloc] init];
+//    model1.auditTime = @"2016-02-30 18:35:35";
+//    model1.auditResultTitle = @"你的申请信息已审核通过";
+//    model1.auditResultDescripetion = @"你的申请信息已审核通过你的申请信息已审核通过你的申请信息已审核通过你的申请信息已审核通过";
+//
+//    JMSellerAuditResultModel *model2 = [[JMSellerAuditResultModel alloc] init];
+//    model2.auditTime = @"2016-02-30 18:35:35";
+//    model2.auditResultTitle = @"你的申请信息已审核通过";
+//    model2.auditResultDescripetion = @"你的申请信息已审核通过你的申请信息已审核通过你的申请信息已审核通过你的申请信息已审核通过";
+//
+//    JMSellerAuditResultModel *model3 = [[JMSellerAuditResultModel alloc] init];
+//    model3.auditTime = @"2016-02-30 18:35:35";
+//    model3.auditResultTitle = @"你的申请信息已审核通过";
+//    model3.auditResultDescripetion = @"你的申请信息已审核通过你的申请信息已审核通过你的申请信息已审核通过你的申请信息已审核通过";
+//
+//    JMSellerAuditResultModel *model4= [[JMSellerAuditResultModel alloc] init];
+//    model4.auditTime = @"2016-02-30 18:35:35";
+//    model4.auditResultTitle = @"你的申请信息已审核通过";
+//    model4.auditResultDescripetion = @"你的申请信息已审核通过你的申请信息已审核通过你的申请信息已审核通过你的申请信息已审核通过";
+
+//    return @[model1,model2,model3,model4];
+return nil;
+}
